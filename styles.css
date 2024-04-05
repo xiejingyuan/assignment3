@@ -1,0 +1,51 @@
+body{
+
+    align-items: center;
+    justify-content: center;
+}
+
+body::before{
+    content: "";
+    background-image: url("bimg.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+main{
+    position: relative;
+    display: flex;
+    text-align: center;
+    
+}
+
+main section{
+    width: 50%;
+}
+
+fieldset{
+    position: relative;
+    left: 100px;
+    width: 500px;
+    background-color: rgb(219, 244, 251); 
+}
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; text-align: left;}
+input { display: table-cell; }
+
+div{
+    display: flex;
+    text-align: center;
+}
