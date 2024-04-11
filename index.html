@@ -71,8 +71,8 @@
 
         form.addEventListener("submit",function(event) {
             event.preventDefault();
-            const number1 = parseInt(document.getElementById("num1").value);
-            const number2 = parseInt(document.getElementById("num2").value);
+            const number1 = parseFloat(document.getElementById("num1").value) || 0;
+            const number2 = parseFloat(document.getElementById("num2").value) || 0;
             const name = document.getElementById("name").value;
     
             const sum = number1 + number2;
